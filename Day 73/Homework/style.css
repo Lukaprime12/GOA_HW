@@ -1,0 +1,66 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: translate(0px , 0px);
+    transition: 0.5s;
+}
+
+
+div:hover {
+    transition: 0.5s;
+    transform: translate(50px , 100px);
+}
+
+
+
+.scale {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: rotate(45deg) scale(1.2);
+    transition: 0.5s;
+}
+
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    transition: 1s;
+}
+
+.rectangle:hover {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: 1.5s;
+}
+
+.yellow:hover {
+    transform: scale(1.2) rotate(90deg) translate(-50px, -50px);
+}
+
+.div {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    transition: all 0.8s ease;
+}
+
+.div:hover {
+    background-color: yellow;
+    transform: scale(1.2) rotate(5deg);
+}
