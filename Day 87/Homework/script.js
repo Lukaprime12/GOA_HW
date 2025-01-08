@@ -11,7 +11,7 @@ console.log("The sum of the numbers is ${sum}");
 // Task 1
 let sum2 = 0;
 for (let i = 0 ; i < 10 ; i++) {
-    console.log("The square is ${i * i}");
+    console.log(`The square is ${i * i}`);
 }
 
 

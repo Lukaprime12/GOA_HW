@@ -44,7 +44,7 @@ function check(char) {
 // Task 2
 let number = prompt("Enter a number: ");
 function sqr(squ) {
-    alert("square root of you number is ${number * number}")
+    alert(`square root of you number is ${number * number}`)
 }
 
 
