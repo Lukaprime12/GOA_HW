@@ -1,0 +1,22 @@
+#btn1 {
+    background-color: Blue;
+    transition: 0.5s;
+}
+
+#btn1:hover {
+    background-color: green;
+    transition: 0.5s;
+}
+
+#btn2 {
+    background-color: black;
+    transition: 5s;
+}
+
+
+#btn2:hover {
+    border-radius: 25%;
+    height: 150px;
+    width: 250px;
+    transition: 5s;
+}
